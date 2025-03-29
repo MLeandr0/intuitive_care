@@ -6,7 +6,7 @@ from typing import Dict, List
 from pathlib import Path
 
 SITE_URL = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos"
-ANEXOS_FOLDER = Path("anexos")
+ANEXOS_FOLDER = Path("web_scraping/anexos")
 KEYWORDS = ["Anexo I", "Anexo II"]
 ZIP_NAME = ANEXOS_FOLDER / "anexos.zip"
 
