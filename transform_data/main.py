@@ -4,7 +4,7 @@ from pathlib import Path
 import zipfile
 import os
 
-ZIP_PATH = Path("../web_scraping/anexos.zip")
+ZIP_PATH = Path("../web_scraping/anexos/anexos.zip")
 EXTRACT_FOLDER = Path("extracted_pdfs")
 PDF_PATH = EXTRACT_FOLDER / "anexo_I.pdf"
 CSV_FILENAME = "combined_tables.csv"
@@ -12,7 +12,7 @@ ZIP_FILENAME = "Teste_matheus_leandro.zip"
 
 def unzip_files():
     if not ZIP_PATH.exists():
-        raise FileNotFoundError(f"ZIP file not found: {ZIP_PATH}")
+        raise FileNotFoundError(f"ZIP file not found: {ZIP_PATH}. Please download the files using the web scraping script first.")
 
     EXTRACT_FOLDER.mkdir(parents=True, exist_ok=True)
 
