@@ -12,16 +12,15 @@ intuitive_care/
 │── transform_data/
 │   ├── main.py
 │   ├── README.md
-│── desafio_3/
+│── create_database/
 │   ├── README.md
-│   ├── app.js
-│   ├── package.json
-├── dir1
-│   ├── file11.ext
-│   └── file12.ext
-├── dir2
-│   ├── file21.ext
-│   ├── file22.ext
-│   └── file23.ext
+│   ├── files
+│   ├── analytic_query.sql
+│   ├── povoate_database.py
+│   ├── tables_generator.sql
+│── test_api/
+│   ├── README.md
+│   ├── back-end
+│   ├── care-project
 └── README.md
 ```
