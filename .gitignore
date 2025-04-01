@@ -3,6 +3,6 @@ web_scraping/anexos
 transform_data/extracted_pdfs
 transform_data/Teste_matheus_leandro.zip
 
-teste_api\back-end\__pycache__
+teste_api/back-end/__pycache__
 
-.env
+/.env
